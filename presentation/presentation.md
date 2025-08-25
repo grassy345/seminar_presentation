@@ -199,7 +199,7 @@ Picture of a puppy
 ###### **History of Markdown**
 
 - It was actually just a [Perl](https://www.perl.org/) script created by **John Gruber** in **2004**
-- The purpose was to make text formatting [easy to read and write.](#12)
+- The purpose was to make text formatting [easy to read and write.](#13)
 - The original design idea was to make it “as readable as plain text, even before being rendered.”
 - It is still used today in blogs, documentation, notes, and presentations (like this one). On the right is a screenshot from the documentation page of [Obsidian](https://help.obsidian.md/)
 
@@ -241,13 +241,43 @@ Picture of a puppy
 
 ---
 
+## 4. History & Flavors
+
+###### **CommonMark Syntaxes and their Equivalent in HTML**
+
+| Element          | Markdown Syntax                               | HTML Equivalent                                  |
+|------------------|----------------------------------------------|------------------------------------------------|
+| **Heading**      | `# H1`<br>`## H2`<br>`### H3`              | `<h1>H1</h1>`<br>`<h2>H2</h2>`<br>`<h3>H3</h3>`|
+| **Bold**         | `**bold text**`                            | `<strong>bold text</strong>`                  |
+| **Italic**       | `*italicized text*`                        | `<em>italicized text</em>`                    |
+| **Blockquote**   | `> blockquote`                              | `<blockquote>blockquote</blockquote>`         |
+| **Ordered List** | `1. First item`<br />`2. Second item`<br>`3. Third item` | `<ol><li>First item</li>`<br />`<li>Second item</li>`<br />`<li>Third item</li></ol>` |
+|continued in next slide...
+
+---
+
+## 4. History & Flavors
+
+###### **CommonMark Syntaxes and their Equivalent in HTML**
+
+
+| Element          | Markdown Syntax                               | HTML Equivalent                                  |
+|------------------|----------------------------------------------|------------------------------------------------|
+| **Unordered List**| `- First item`<br>`- Second item`<br>`- Third item` | `<ul><li>First item</li>`<br />`<li>Second item</li>`<br />`<li>Third item</li></ul>` |
+| **Code**         | `` `code` ``                                | `<code>code</code>`                            |
+| **Horizontal Rule**| `---`                                     | `<hr>`                                        |
+| **Link**         | `[title](https://www.youtube.com/)`          | `<a href="https://www.youtube.com/">title</a>` |
+| **Image**        | `![alt text](image.jpg)`                   | `<img src="image.jpg" alt="alt text">`        |
+
+---
+
 <!-- _class:  bq-blue -->
 
 ## 4. History & Flavors
 
 ###### **Common Flavors and Implementations**
 
-- An implementation is a program or library that follows a flavor’s rules, written in a specific programming language (like C, JavaScript, Python).
+- An **implementation** is a program or library that follows a flavor’s rules, written in a specific programming language (like C, JavaScript, Python).
 - Example: CommonMark has implementations in many languages to keep behavior consistent.
 
 > CommonMark and Why it is different from the rest of them flavors
@@ -262,17 +292,17 @@ Picture of a puppy
 
 ###### **Examples of some flavors include:**
 
-| **Flavor**            | **Description**                       |
-| :-------------------- | ------------------------------------: |
-| **Original Markdown** | First spec; loose and ambiguous       |
-| **CommonMark**        | Standardized to remove ambiguity      |
-| **GFM**               | GitHub’s version; adds tables & lists |
-| **Markdown Extra**    | Adds tables, footnotes                |
-| **Pandoc**            | Extended; supports math & slides      |
-| **R Markdown**        | For R; runs code blocks               |
-| **Markua**            | For writing technical books           |
-| **Typora**            | Typora’s version; adds diagrams, math |
-| ...and many more (This is already too much)                   |
+| **Flavor**                                                | **Description**                       |
+| :--------------------                                     | ------------------------------------: |
+| **Original Markdown**                                     | First spec; loose and ambiguous       |
+| **CommonMark**                                            | Standardized to remove ambiguity      |
+| [**GFM**](https://litter.catbox.moe/xoq2za.png)           | GitHub’s version; adds tables & lists |
+| **Markdown Extra**                                        | Adds tables, footnotes                |
+| **Pandoc**                                                | Extended; supports math & slides      |
+| **R Markdown**                                            | For R; runs code blocks               |
+| **Markua**                                                | For writing technical books           |
+| **Typora**                                                | Typora’s version; adds diagrams, math |
+| ...and many more (This is already too much)                                                       |
 
 
 ---
@@ -451,11 +481,11 @@ int main() {
 <div class=ldiv>
 
 - The following **tools** can be used to write Markdown files.
-  - **VS Code** – For writing and editing `.md` files
-  - **Obsidian** – For note-taking and organizing Markdown files
-  - **MarkText** – For distraction-free Markdown writing
-  - **Marp** – For creating presentation slides from Markdown
-  - **GitHub / Git** – For version control and collaboration
+  - [**VS Code**](https://code.visualstudio.com/) – For writing and editing `.md` files
+  - [**Obsidian**](https://obsidian.md/) – For note-taking and organizing Markdown files
+  - [**MarkText**](https://github.com/marktext/marktext) – For distraction-free Markdown writing
+  - [**Marp**](https://marp.app/) – For creating presentation slides from Markdown
+  - [**GitHub**](https://github.com/) **/** [**Git**](https://git-scm.com/) – For version control and collaboration
 
 </div>
 
@@ -473,7 +503,7 @@ int main() {
   1. Write in Markdown using VS Code, Obsidian, or MarkText
   2. Preview and Style content in chosen tool
   3. Export or Convert to desired format (e.g., PDF, HTML, PPTX)
-  4. Optional: Add CSS for custom styling
+  4. Optional but **pivotal**: Add CSS for custom styling
   5. Use Marp to generate presentation slides from `.md` files
 
 - The best thing is that:
@@ -514,7 +544,7 @@ In short...
 
 - Advantages of Markdown Tools
   - Free, lightweight, and portable
-  - Free, lightweight, and portable
+  - Works well with coding workflows
   - Supports automation and templates
 
 - Advantages of GUI Tools
@@ -544,7 +574,7 @@ In short...
 - **Note-taking** → [Obsidian](https://obsidian.md/), Joplin
 - **Reports & Docs** → [MarkText](https://github.com/marktext/marktext), Typora, [GitHub Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 - **Blogs & Books** → Ghost, Leanpub
-- **Presentations** → Marp
+- **Presentations** → [Marp](https://marp.app/)
 - **Project Management** → GitHub Issues, Trello
 
 ---
