@@ -2,7 +2,7 @@
 
 This remote is for version controlling my seminar presentation.
 
-Special thanks to @favourhong for doing the heavy-lifting by writing the CSS files for this presentation.
+Special thanks to @favourhong for doing the heavy-lifting by writing the [CSS files](https://github.com/favourhong/Awesome-Marp/tree/main/themes) for this presentation.
 
 ## Best setup to work with this presentation
 
@@ -14,4 +14,4 @@ Special thanks to @favourhong for doing the heavy-lifting by writing the CSS fil
 - Clone the repo.
 - Make changes to `presentation/presentation.md` file.
 - Export.
-- You can see the changes you made live in the preview window of Marp extension in Vs Code.
+- You can see the changes you made live in the preview window of Marp extension in VS Code.
