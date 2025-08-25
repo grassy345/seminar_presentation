@@ -641,4 +641,10 @@ In short...
 
 <!-- _class: lastpage -->
 
-###### THANK YOU
+###### THANK YOU~
+
+<div class="icons">
+
+<i class="fa-brands fa-github fa-2xl"></i>&nbsp; [Link to the project repo](https://github.com/grassy345/seminar_presentation)
+
+<div>
