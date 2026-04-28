@@ -1,6 +1,6 @@
 # Seminar presentation
 
-This remote is for version controlling my seminar presentation.
+This remote is for version controlling my seminar presentation I did for semester 5 of polytechnic.
 
 Special thanks to @favourhong for doing the heavy-lifting by writing the [CSS files](https://github.com/favourhong/Awesome-Marp/tree/main/themes) for this presentation.
 
